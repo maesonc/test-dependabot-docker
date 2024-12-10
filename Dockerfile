@@ -1,5 +1,5 @@
 # Use the official MongoDB image as the base
-FROM mongo:8.0.0
+FROM mongo:8.0.4
 # Set the environment variable to define the custom data directory inside the container
 ENV MONGO_DATA_DIR /db-data
 # Create the custom data directory inside the container
